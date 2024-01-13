@@ -1,8 +1,17 @@
-Dependency Graph
+Dependency Graphs
 ========
+For GDP dag -
 
 
-https://github.com/muskangupta4/astro-example-dags/assets/65766138/5fccb22f-c502-4988-90c2-81c7681e244f
+https://github.com/muskangupta4/astro-example-dags/assets/65766138/ddc671fc-8508-4337-a906-262ee0109194
+
+
+For titanic dag -
+
+
+
+https://github.com/muskangupta4/astro-example-dags/assets/65766138/06c83e75-74ce-4375-bea3-0d33d3b824ad
+
 
 
 Overview
@@ -21,6 +30,10 @@ aggregate_sql: Aggregates the data by survival and class, using SQL.
 aggregate_python: Aggregates the data by survival and class, using Python.
 
 Note that each cell returns a value that can be referenced in subsequent cells using the {{cell_name}} syntax in SQL and cell_name syntax in Python.
+
+Datasets Used
+========
+https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv
 
 Project Contents
 ================
